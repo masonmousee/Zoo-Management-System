@@ -1,0 +1,130 @@
+.section {
+    background: var(--cor-6);
+    color: var(--cor-2);
+    overflow: hidden;
+    display: block;
+    flex-direction: column;
+  }
+  
+  .service_content{
+    padding-left: 11rem;
+    padding-right: 4.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .service_content h1{
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  
+  .toolbar-mini__popup {
+    padding-bottom: 17rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 11rem;
+    padding-right: 3rem;
+    flex-direction: column;
+    border-radius: 8px;
+    justify-content: space-between;
+    box-shadow: 0 20px 50px 0 rgba(0,0,0,.05);
+    height: 240px;
+  }
+  
+  .toolbar-inner {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .toolbar-mini__popup--openings,
+  .toolbar-mini__popup--events,
+  .toolbar-mini__popup--map,
+  .toolbar-mini__popup--faq {
+    padding: 10px;
+    background: rgb(13, 35, 13)
+    ;
+  }
+  
+  .toolbar-mini__popup--left {
+    flex: 1;
+  }
+  
+  .toolbar-mini__popup--right {
+    flex: 1;
+  }
+  
+  .toolbar-mini__headline {
+      font-size: .8125rem;
+      line-height: 1.375rem;
+      letter-spacing: .05rem;
+      text-transform: uppercase;
+      font-weight: 400;
+      position: relative;
+      font-weight: bold;
+      color: var(--cor-2);
+  }
+  
+  .toolbar-mini__cell-content {
+    margin-bottom: 10px;
+  }
+  
+  .toolbar-mini__cell-content--time {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .toolbar-mini__subheadline {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .toolbar-mini__time {
+    font-size: 14px;
+  }
+  
+  .toolbar-mini__text {
+    font-size: 14px;
+  }
+  
+  .toolbar-mini__link {
+    display: inline-block;
+    padding: 8px 16px;
+    background: linear-gradient(180deg, var(--cor-1) 0%, var(--cor-3) 100%);
+    color: var(--cor-4);
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.2s;
+    
+    /* font-weight: 20; */
+  
+  }
+  
+  .toolbar-mini__link:hover {
+    /* background: #035906 !important; */
+    transform: translateY(-0.2rem);
+  }
+  
+  .toolbar-mini__tile-image-map {
+    width: 165px;
+    height: 110px;
+    border-radius: 8px;
+  }
+  
+  .toolbar-mini__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .toolbar-mini__list-item {
+    font-size: 14px;
+  }
+  
+  .angle-icon:hover{
+    transform: translateX(0.2rem);
+    transition: 0.2s;
+  }
+  
